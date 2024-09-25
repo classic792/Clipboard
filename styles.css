@@ -1,0 +1,348 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: "Bai jamjuree", sans-serif;
+}
+#logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%; 
+    height: auto;
+    position:relative;
+    top:-10rem;   
+}
+.group1{
+
+    width:50%;
+    margin:auto;
+    position:relative;
+    top:-10rem;
+    text-align: center;
+}
+button{
+    padding:8px;
+    border-radius: 15px;
+    gap:5rem;
+}
+#iOS{
+    background-color: hsl(171, 66%, 44%);
+    border-color: hsl(171, 66%, 44%);
+}
+#Mac{
+    background-color: hsl(233, 100%, 69%);
+    border-color:hsl(233, 100%, 69%)
+}
+.track{
+    position:relative;
+    top:5.5rem;
+}
+.tracktext{
+    max-width: 90%;
+}
+.macpc{
+    display: flex;
+    margin-bottom:8%;
+}
+.besidemac{
+    position:relative;
+    top:4rem;
+    left:7%;
+    height:30rem;
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.group2{
+    width:63%;
+    margin:auto;
+}
+.access{
+    text-align: center;
+}
+.accesstext{
+    width:70%;
+    margin:auto;
+    margin-bottom: 8%;
+}
+.supercharge{
+    width:31%;
+    margin:auto;
+    text-align: center;
+}
+.snippets{
+    display:flex;
+    justify-content: space-between;
+    width:85%;
+    margin:auto;
+    margin-bottom: 10%;
+}
+.blacklist{
+    text-align: center;
+    width: 27%;
+}
+.plaintext{
+    text-align: center;
+    width: 27%;
+}
+.sneak{
+    text-align: center;
+    width:27%;
+}
+.ensure{
+    position:relative;
+    top:-6%;
+}
+.companies{
+    display:flex;
+    justify-content: space-between;
+    width:86%;
+    margin:auto;
+    margin-bottom: 5%;
+}
+.companies img{
+    width:11%;
+    height:10%;
+}
+.last{
+    text-align: center;
+    width:47%;
+    margin:auto;
+    margin-bottom:7%;
+}
+footer{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    background-color: ghostwhite;
+}
+#clip{
+    width:5%;
+}
+.helps{
+    width:38%;
+    display: flex;
+    justify-content: space-between;
+}
+.help1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.help2{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.help3{
+    width:20%;
+    margin-top:1%;
+}
+.socials{
+    width:10%;
+    height:7%;
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    top:1rem;
+}
+ /* MEDIA QUERIES */
+  /* QUERY FOR SMARTPHONES */
+@media(max-width:500px){
+    #logo{
+        position:relative;
+        top:-9rem;
+    }
+    #back{
+        height:15rem;
+    }
+    .group1{
+        width:95%;
+        margin:auto;
+        position: relative;
+        top:-11rem;
+    }
+    .track{
+        position:relative;
+        top:2rem;
+    }
+    .tracktext{
+        max-width:95%;
+    }
+    .macpc{
+        display:flex;
+        flex-direction: column;
+    }
+    #macpc{
+        width:90%;
+        margin:auto;
+        height:50%;
+    }
+    .besidemac{
+        width:91%;
+        height:22rem;
+        margin-bottom:20%;
+        text-align: center;;
+    }
+    .group2{
+        width:90%;
+        height: 27rem;
+    }
+    #phonetablet{
+        width:100%;
+    }
+    .supercharge{
+        width:85%;
+    }
+    .snippets{
+        flex-direction: column;
+    }
+    .blacklist{
+        width:100%;
+        margin-bottom: 10%;
+    }
+    .plaintext{
+        width:100%;
+        margin-bottom: 10%;
+    }
+    .sneak{
+        width:100%;
+        margin-bottom: 10%;
+    }
+    .companies{
+        flex-direction: column;
+        height:10rem;
+        margin-bottom:100%;
+    }
+    .companies img{
+       height:50%;
+       width:50%; 
+       margin:auto;
+       margin-bottom:15%;
+    }
+    .last{
+        width:90%;
+    }
+    button{
+        display:flex;
+        flex-direction: column;
+        width:39%;
+        margin:auto;
+    }
+    #iOS{
+        margin-bottom:5%;
+    }
+    footer{
+        flex-direction: column;
+    }
+    #clip{
+        width:10%;
+        margin:auto;
+        margin-bottom: 10%;
+    }
+    .helps{
+       flex-direction:column;
+       width:33%;
+       margin:auto;
+       gap:0.5rem;
+       text-align: center;
+       margin-bottom:10%;
+    }
+    .help1{
+        gap:0.5rem;
+    }
+    .help2{
+        gap:0.5rem;
+    }
+    .help3{
+        width:100%;
+    }
+    .socials{
+        width:50%;
+        margin:auto;
+        margin-bottom:10%;
+    }
+    /* TABLET */
+}
+@media (min-width:501px) and (max-width:1024px){
+    body{
+        font-size: 20px;
+    }
+    #logo{
+        position: relative;
+        top:-6rem;
+        margin-bottom: 10%;
+    }
+    .group1{
+        width:98%;
+    }
+    .track{
+        position:relative;
+        top:3rem;
+    }
+    .macpc{
+        flex-direction:column;
+    }
+    #macpc{
+        width:90%;
+        margin:auto;
+    }
+    .besidemac{
+        width:80%;
+        height:80%;
+        text-align: center;
+        margin-bottom:10%;
+    }
+    .group2{
+        width:100%;
+    }
+    #phonetablet{
+        width:100%;
+    }
+    .supercharge{
+        width:80%;
+    }
+    .snippets{
+        flex-direction:column;
+        width:100%;
+    }
+    .blacklist{
+        width:70%;
+        margin:auto;
+    }
+    .plaintext{
+        width:70%;
+        margin:auto;
+    }
+    .sneak{
+        width:70%;
+        margin:auto;
+    }
+    .companies{
+        flex-direction: column;
+    }
+    .companies img{
+        width:33%;
+        height:90%;
+        margin:auto;
+        margin-bottom:10%;
+    }
+    .last{
+        width:80%;
+    }
+    #clip{
+        width:10%;
+    }
+    .helps{
+        width:60%;
+    }
+    .socials{
+       width: 20%; 
+    }
+}
